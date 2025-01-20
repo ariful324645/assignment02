@@ -220,6 +220,31 @@ border:none;
     gap:30px;
     margin-bottom: 64px;
 }
+/* btn */
+.btn-arrow-container{
+    display: flex;
+width: 60px;
+height: 60px;
+padding: 17px 0px 19px 0px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background: var(--Orange, #FEA301);
+
+}
+.icon{
+    color: #FFF;
+text-align: center;
+font-family: "Font Awesome 5 Free";
+font-size: 24px;
+font-weight: 900;
+}
+.two-btn-container{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 34px;
+}
 
 @media screen and (max-width: 576px) {
     header{
@@ -266,5 +291,8 @@ border:none;
  gap:40px;
  margin:0px auto;
     
+}
+.two-btn-container{
+    display: none;
 }
 }
