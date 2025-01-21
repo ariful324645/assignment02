@@ -255,7 +255,7 @@ header > hr {
 .our-stories-container {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
   margin: 0 140px;
   padding-bottom: 80px;
 }
